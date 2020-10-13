@@ -34,7 +34,7 @@
     <div class="offcanvas-menu-overlay"></div>
     <div class="offcanvas-menu-wrapper">
         <div class="offcanvas__logo">
-            <a href="#"><img src="img/logo.png" alt=""></a>
+            <a href="#"><img src="GravityMenu.png" alt=""></a>
         </div>
         <div id="mobile-menu-wrap"></div>
     </div>
@@ -77,10 +77,8 @@
     <!-- Hero Section Begin -->
     <section class="hero">
         <div class="hero__slider owl-carousel">
-            <div class="hero__items set-bg" data-setbg="img/hero/hero-1.jpg">
+            <div class="hero__items set-bg" data-setbg="img/GravityMenu.PNG">
                 <div class="hero__text">
-                    <h2>Gravity
-                    </h2>
                 </div>
             </div>
         </div>
@@ -96,21 +94,27 @@
                 <div class="col-lg-6">
                     <div class="about__text">
                         <div class="section-title">
-                            <span>The game</span>
-                            <h2>My role and the game in general</h2>
+                            <span>Gravity</span>
+                            <h2>Min roll och spelet i allmänhet</h2>
                         </div>
                         <div class="about__para__text">
-                            <p>The game Gravity is a game i created along with a few classmates during a course at Stockholms Univeristy
-                                It is a 3D platformer that challenges what you thaught a 3D platformer can do by utilising all the possibilities 
-                                of changeable gravity and three dimensions
-                            </p>
-                            <p>The goal of the game is like any other platformer game, to reach the goal without failing.
-                                
+                            <p>Gravity var ett spel som jag byggde under en kurs Våren 2019 så detta projekt är byggt helt på distans via Unitys egna collaboration system och GitHub.
+                                Gravity är ett 3D plattformsspel som bygger på att du ska manipulera din egen gravitation för att ta dig förbi hinder och lösa pussel.
+                            Det är ett utmanande spel som fick våra speltestare att kämpa med att både komma ihåg vad som är upp o ner och vart de ska någonstans. </p>
+
+                            <p>
+                                Spelet skapades i Unity och min roll under spelet var programmerare vilket innebar att jag tillsammans med en klasskamrat koda in all funktionalitet i spelet.
+                                Under spelets utveckling har jag även hjälpt till med level designs och andra småsaker som behövdes under utvecklingen.
+                                En av svårigheterna i kursen var att vi skulle bygga våran egna kontroller för spelaren och all den tillhörande fysiken för kollisions hantering etc.
+                                Det svåraste som vi inte riktigt hade räknat med var kamerarotationerna när den skulle följa efter spelaren när man byter håll på gravitationen.
+                                Då kameran inte endast kunde ärva spelarens riktning och uppåt så blev detta script mycket större och intensivare att jobba med en vad som från början var tänkt.
+                                vi lyckades dock lösa de problemen som uppstod genom att analysera de olika specialfallen och där det fallerade/krävdes special lösningar applicera dessa.
+                                Då vi var två som kodade och fler som behövde förstå så arbetade vi mycket med kommentarer och förklarningar i scripten vilket kan ses på bilden bredvid.
+            
                             </p>
                             <p>
-                                The game is created in Unity and my role during the project was along with one classmate to code all the functionality in the game.
-                                what made this hard was that a part of the course was that we where not allowed to use any prebuilt scripts for collisions or character controlling so all the physics
-                                and everything related to it is coded by me and my classmate
+                                De stora lärdommarna jag har dragit ur detta projekt är att se till att börja litet och finns det tid över så expanderar man då annars är risken 
+                                stor för att man inte får något att visa för all tid man lagt ner, och se till att det finns en tydlig plan över vad som ska göras och vem som ansvarar för det.
                             </p>
 
                         </div>
@@ -118,9 +122,10 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="about__pic">
-                        <div class="about__pic__inner">
-                            <img src="img/about-pic.jpg" alt="">
+                    <div class="about__pic" style="position: relative; top: 100px;">
+                        <div >
+                            <img src="Giffs/Rotation Gravity.gif" alt="" style="padding: 10px;">
+                            <img src="img/Gravity/gravity camera code.PNG" alt="" style="padding: 10px;">
                         </div>
                     </div>
                 </div>
